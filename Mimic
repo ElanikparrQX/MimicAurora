@@ -1,15 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<elements>
-	<info>
-		<name>Mimic</name>
-		<description></description>
-	    <update version="1.0">
-			<file name="race-Mimic.xml" url=""/>
-		</update>
-	</info>
-
-  <element name="Mimic" type="Race" source="Homebrew" id="ID_HMBRW_RACE_MIMIC">
-    <description>
       <h4>MIMIC</h4>
       <p>Mimics are shapeshifting predators that take the forms of inanimate objects to lure intelligent creatures to their doom. However, very rarely, a mimic will be born with higher intelligence on par with its erstwhile prey. It may even, eventually, find that the taste of sentient beings isn't to its liking, or that staying in one place and waiting for a hapless adventurer to happen by has lost its charm. Such an unnatural specimen may then choose to leave its domain and seek out other creatures not merely for food, but for conversation and companionship.</p> 
       <span class="feature">Ability Score Increase.</span>Your Strength, Constitution, and Wisdom scores each increase by 1.<br/>
@@ -46,34 +34,39 @@
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Monstrosity" />
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Shapechanger" />
     </rules>
-  </element>
+  </elements>
   
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Adhesive">
+   <elements name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Adhesive">
     <description>
 			<p> Due to the sticky nature of your body, ability checks made to escape your grapple have disadvantage.</p>
 		</description>
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Amorphous">
+  </elements>
+   <elements name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Amorphous">
     <description>
 			<p> Due to the amorphous nature of your true form, you cannot benefit from armor, though you can use a shield. Your Armor Class is equal to 11 + your Dexterity modifier and you are immune to the prone condition.</p>
 		</description>
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Bite">
+  </elements>
+   <elements name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Bite">
     <description>
 			<p> Your maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
 		</description>
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Grappler">
+  </elements>
+   <elements name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Grappler">
     <description>
 			<p> You have advantage on grapple checks. In addition, whenever a Large or smaller creature interacts with you or enters a space within 5 feet of you, while you have shape changed into an object, you can use your reaction to attempt to grapple that creature.</p>
 		</description>
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Monstrosity">
+  </elements>
+   <elements name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Monstrosity">
     <description>
 			<p> Your creature type is both humanoid and monstrosity.</p>
 		</description>
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Shapechanger">
+  </elements>
+   <elements name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_MIMIC_Shapechanger">
     <description>
 			<p> As an action, you can polymorph into an object of your Medium or Small size that you have seen, or back into your true form. While you remain motionless, as an object you are indistinguishable from an ordinary object. Your equipment does not change with you, however, it may be contained within you as long as your shape has the dimensions to accommodate it. If you die, you revert to your true form. You retain all of your normal statistics while in this form.</p>
 		</description>
 		<sheet display="false">
 			<description> You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</description>
 		</sheet>
-  </element>
+  </elements>
 </elements>
